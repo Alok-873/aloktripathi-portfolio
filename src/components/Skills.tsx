@@ -35,14 +35,6 @@ const Skills = () => {
     }
   ];
 
-  const expertise = [
-    { skill: "Backend Architecture", level: 95 },
-    { skill: "Full-Stack Development", level: 90 },
-    { skill: "API Design & Optimization", level: 92 },
-    { skill: "Database Management", level: 88 },
-    { skill: "AI Integration", level: 85 },
-    { skill: "DevOps & Deployment", level: 82 }
-  ];
 
   return (
     <section id="skills" className="py-20 px-4">
@@ -55,7 +47,7 @@ const Skills = () => {
         </p>
 
         {/* Skill Categories */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <Card 
               key={index}
@@ -78,32 +70,6 @@ const Skills = () => {
             </Card>
           ))}
         </div>
-
-        {/* Expertise Levels */}
-        <Card className="bg-card border-border p-8 card-glow">
-          <h3 className="text-2xl font-bold mb-8 text-foreground">
-            Core Expertise
-          </h3>
-          <div className="space-y-6">
-            {expertise.map((item, index) => (
-              <div key={index} className="space-y-2">
-                <div className="flex justify-between items-center">
-                  <span className="text-foreground font-medium">{item.skill}</span>
-                  <span className="text-primary font-mono text-sm">{item.level}%</span>
-                </div>
-                <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                  <div 
-                    className="h-full bg-gradient-to-r from-primary to-accent transition-all duration-1000 ease-out"
-                    style={{ 
-                      width: `${item.level}%`,
-                      boxShadow: "0 0 10px hsl(var(--primary))"
-                    }}
-                  ></div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </Card>
       </div>
     </section>
   );

@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -74,7 +73,7 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, techIndex) => (
                     <Badge 
                       key={techIndex}
@@ -84,17 +83,6 @@ const Projects = () => {
                       {tech}
                     </Badge>
                   ))}
-                </div>
-
-                <div className="flex gap-4 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-1 hover:text-primary transition-colors cursor-pointer">
-                    <Github className="w-4 h-4" />
-                    <span>View Code</span>
-                  </div>
-                  <div className="flex items-center gap-1 hover:text-primary transition-colors cursor-pointer">
-                    <ExternalLink className="w-4 h-4" />
-                    <span>Live Demo</span>
-                  </div>
                 </div>
               </div>
             </Card>
