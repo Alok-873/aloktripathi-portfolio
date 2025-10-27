@@ -30,12 +30,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg text-foreground leading-relaxed">
-              Currently serving as <span className="text-primary font-semibold">Software & Technical Manager</span> at 
-              Indus Media Solutions, where I architect backend integrations and automate workflows for DOOH advertising platforms.
+              Currently serving as <span className="text-primary font-semibold">Lead Software Engineer (Technical Manager)</span> at 
+              Indus Media Solutions, where I architect backend integrations with Broadsign Control and manage DOOH campaigns for 25+ major brands.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With a B.Tech from JIIT Noida and experience at GreyB Research, I've engineered solutions 
-              processing millions of data points, built AI-powered tools, and optimized systems for 2x performance gains.
+              With a B.Tech in Electronics & Communication from JIIT Noida (CGPA: 7.6/10) and experience at GreyB Research, 
+              I've built centralized data infrastructure, achieved 99.8% campaign delivery rates, and optimized systems for 2x performance gains.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               A <span className="text-accent font-semibold">TechGig Code Gladiators Finalist</span> (Top 0.1% nationwide) 

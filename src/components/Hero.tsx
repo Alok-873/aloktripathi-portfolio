@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto relative z-10 text-center">
         <div className="mb-6 animate-fade-in">
           <span className="text-primary text-sm font-mono tracking-wider uppercase">
-            Full Stack Developer
+            Lead Software Engineer
           </span>
         </div>
 
@@ -26,8 +26,8 @@ const Hero = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          Software & Technical Manager crafting scalable backend architectures and AI-powered solutions. 
-          Transforming complex challenges into elegant code.
+          Lead Software Engineer & Technical Manager specializing in DOOH advertising automation, 
+          backend architectures, and AI-powered solutions. Expert in building scalable data processing systems.
         </p>
 
         <div className="flex flex-wrap gap-4 justify-center mb-12 animate-fade-in" style={{ animationDelay: "0.6s" }}>

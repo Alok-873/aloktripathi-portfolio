@@ -6,24 +6,24 @@ const Projects = () => {
     {
       title: "GrowCode",
       subtitle: "Collaborative Coding Platform",
-      description: "Full-stack platform featuring curated articles, pair programming, real-time code execution, and AI-assisted debugging. Built with Next.js, Node.js, Redis, PostgreSQL, and Docker-based sandboxing.",
-      tech: ["Next.js", "Node.js", "PostgreSQL", "Redis", "Docker", "WebSocket", "AI/ML"],
+      description: "Architected full-stack platform for collaborative coding with curated articles, pair programming, real-time code execution, and AI-assisted debugging. Implemented secure Docker-based sandbox for C++, Java, and Python execution with AI microservice for error diagnosis.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Redis", "Docker", "WebSocket", "Kubernetes", "NGINX", "ELK Stack"],
       status: "In Progress",
       gradient: "from-primary to-accent"
     },
     {
       title: "WritersNest",
       subtitle: "Literature Sharing Platform",
-      description: "Community-driven platform with AI-powered summarization, contextual explanation, and vocabulary building. Architecting with React, Node.js, PostgreSQL, MongoDB, and LLM integration.",
-      tech: ["React", "Node.js", "PostgreSQL", "MongoDB", "LLMs", "AI"],
+      description: "Designed community-driven platform where writers publish literary works and readers explore with AI-powered features including summarization, contextual explanation, and vocabulary building to enhance reading comprehension.",
+      tech: ["React", "Next.js", "Node.js", "PostgreSQL", "LLMs", "AI"],
       status: "In Progress",
       gradient: "from-accent to-primary"
     },
     {
       title: "Patent Family Visualization Tool",
       subtitle: "GreyB Research",
-      description: "Engineered full-stack tool rendering 1,000+ patents interactively. Enhanced API performance by 2x through optimized indexing. Built Chrome extension improving readability by 70%.",
-      tech: ["Vue.js", "FastAPI", "Elasticsearch", "PostgreSQL", "Chrome Extension"],
+      description: "Developed full-stack patent family visualization tool rendering 1,000+ patents interactively, including enterprise version utilizing Salesforce APEX classes, batches and triggers. Built AI-powered Chrome extension improving patent readability by 70%.",
+      tech: ["Vue.js", "FastAPI", "Elasticsearch", "PostgreSQL", "Salesforce APEX", "Chrome Extension"],
       status: "Completed",
       gradient: "from-primary via-accent to-primary"
     },

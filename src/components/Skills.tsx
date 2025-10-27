@@ -5,33 +5,38 @@ const Skills = () => {
   const skillCategories = [
     {
       category: "Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "C/C++"],
+      skills: ["Python", "JavaScript", "C/C++"],
       color: "primary"
     },
     {
-      category: "Backend",
-      skills: ["FastAPI", "Flask", "Node.js", "Express.js"],
+      category: "Web Frameworks",
+      skills: ["FastAPI", "Flask", "Node.js", "Express.js", "Vue.js", "Vuetify", "React", "Next.js"],
       color: "accent"
     },
     {
-      category: "Frontend",
-      skills: ["React", "Next.js", "Vue.js", "Vuetify", "Tailwind CSS"],
+      category: "Databases & Search",
+      skills: ["PostgreSQL", "MySQL", "Elasticsearch", "ClickHouse", "Manticore", "Firebase", "Apache Solr"],
       color: "primary"
     },
     {
-      category: "Databases",
-      skills: ["PostgreSQL", "MySQL", "Elasticsearch", "MongoDB", "Firebase", "ClickHouse", "Manticore"],
+      category: "DevOps & Testing",
+      skills: ["Docker", "Git/GitHub", "GitLab CI/CD", "JMeter", "Postman", "Selenium", "Playwright", "Locust", "TDD"],
       color: "accent"
     },
     {
-      category: "DevOps & Tools",
-      skills: ["Docker", "Git/GitHub", "JMeter", "Postman", "Selenium", "Locust", "NGINX", "Kubernetes"],
+      category: "Monitoring & Analytics",
+      skills: ["ELK Stack", "Kibana", "Metabase"],
       color: "primary"
     },
     {
-      category: "AI & ML Tools",
-      skills: ["LangChain", "GitHub Copilot", "ChatGPT", "Google Gemini", "Amazon Q", "Google AI Studio"],
+      category: "AI/LLM Tools",
+      skills: ["GitHub Copilot", "Google Gemini", "LangChain", "Google AI Studio", "Amazon Q", "Lovable", "Bolt"],
       color: "accent"
+    },
+    {
+      category: "Enterprise Platforms",
+      skills: ["Salesforce LWC", "Salesforce APEX"],
+      color: "primary"
     }
   ];
 

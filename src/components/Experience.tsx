@@ -6,13 +6,14 @@ const Experience = () => {
   const experiences = [
     {
       company: "Indus Media Solutions Pvt. Ltd.",
-      role: "Software & Technical Manager",
+      role: "Lead Software Engineer (Technical Manager)",
       period: "Oct 2024 - Present",
       location: "Gurugram, India",
       achievements: [
-        "Architected backend integration with Broadsign Control for DOOH advertising automation",
-        "Designed RESTful APIs and data pipelines, improving efficiency by 40%",
-        "Customized Broadsign backend using FastAPI and PostgreSQL"
+        "Architected backend integration with Broadsign Control, automating 95%+ of campaign workflows",
+        "Spearheaded technical collaboration with 25+ major brands (Zomato, Tanishq), achieving 99.8% campaign delivery",
+        "Managed DOOH campaigns across 12-15 digital screens through Broadsign Control CMS",
+        "Designed RESTful APIs and automated data pipelines, improving report generation efficiency by 40%"
       ],
       tech: ["FastAPI", "PostgreSQL", "Docker", "REST APIs"]
     },
@@ -22,12 +23,13 @@ const Experience = () => {
       period: "Jul 2023 - Oct 2024",
       location: "Chandigarh, India",
       achievements: [
-        "Engineered ETL pipelines for large-scale patent data, reducing processing time by 50%",
-        "Developed full-stack patent family visualization tool rendering 1,000+ patents",
-        "Enhanced API performance by 2x through optimized indexing and caching",
-        "Built AI-powered Chrome extension improving readability by 70%"
+        "Architected centralized data infrastructure for all research teams, building ETL pipelines for USPTO bulk data",
+        "Instituted robust QA practices using TDD, achieving 60%+ project test coverage",
+        "Developed full-stack patent family visualization tool rendering 1,000+ patents, including Salesforce APEX version",
+        "Enhanced API performance by 2x through optimized indexing and caching strategies",
+        "Built AI-powered Chrome extension improving patent readability by 70%"
       ],
-      tech: ["Vue.js", "FastAPI", "Elasticsearch", "PostgreSQL", "Chrome Extensions"]
+      tech: ["Vue.js", "FastAPI", "Elasticsearch", "PostgreSQL", "Salesforce APEX", "Playwright", "Selenium"]
     }
   ];
 
@@ -46,6 +48,11 @@ const Experience = () => {
       title: "Google Code Jam",
       year: "2023",
       description: "Rank 1342 / 25,000+"
+    },
+    {
+      title: "HackerRank Certified",
+      year: "2023",
+      description: "Intermediate Problem Solving"
     }
   ];
 
